@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chimerax_bundle_info
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.cgl.ucsf.edu/chimerax/schema/chimerax_bundle_info
+                        http://www.cgl.ucsf.edu/chimerax/schema/chimerax_bundle_info.xsd"
+    name="ChimeraX-EpitopeMapper"
+    version="1.0"
+    category="Analysis"
+    url="https://github.com/j-h-greene/ChimeraX-EpitopeMapper"
+    description="A ChimeraX bundle for epitope mapping."
+    authors="Sophia Greene"
+    required_bundles="ChimeraX-Core"
+>
+    <command
+        name="epitope map"
+        module="chimerax.epitope_mapper.epitope_mapper"
+        class="EpitopeMapper"
+        help="Map epitopes on protein structures."
+    />
+</chimerax_bundle_info>
