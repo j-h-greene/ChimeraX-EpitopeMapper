@@ -1,20 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<chimerax_bundle_info
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.cgl.ucsf.edu/chimerax/schema/chimerax_bundle_info
-                        http://www.cgl.ucsf.edu/chimerax/schema/chimerax_bundle_info.xsd"
-    name="ChimeraX-EpitopeMapper"
-    version="1.0"
-    category="Analysis"
-    url="https://github.com/j-h-greene/ChimeraX-EpitopeMapper"
-    description="A ChimeraX bundle for epitope mapping."
-    authors="Sophia Greene"
-    required_bundles="ChimeraX-Core"
->
-    <command
-        name="epitope map"
-        module="chimerax.epitope_mapper.epitope_mapper"
-        class="EpitopeMapper"
-        help="Map epitopes on protein structures."
-    />
-</chimerax_bundle_info>
+<BundleInfo name="ChimeraX-EpitopeMapper" version="1.0" package="chimerax.epitope_mapper"
+            minSessionVersion="1" maxSessionVersion="1">
+
+  <Author>Sophia Greene</Author>
+  <Email>sophia.greene@case.edu</Email>
+  <URL>https://github.com/j-h-greene/ChimeraX-EpitopeMapper</URL>
+  <License>license.txt.mit</License>
+
+  <Synopsis>A ChimeraX bundle for epitope mapping.</Synopsis>
+  <Description>
+    A ChimeraX bundle for epitope mapping, providing tools to identify and analyze potential 
+    epitopes on protein structures using spatial clustering and B-cell propensity scoring.
+  </Description>
+
+  <Categories>
+    <Category name="Analysis"/>
+  </Categories>
+
+  <Classifiers>
+    <PythonClassifier>Development Status :: 3 - Alpha</PythonClassifier>
+    <PythonClassifier>License :: OSI Approved :: MIT License</PythonClassifier>
+    <ChimeraXClassifier>ChimeraX :: Bundle :: Analysis :: 1.0 :: chimerax.epitope_mapper :: chimerax.epitope_mapper :: </ChimeraXClassifier>
+    <ChimeraXClassifier>ChimeraX :: Command :: epitope map :: Analysis :: Map epitopes on protein structures</ChimeraXClassifier>
+  </Classifiers>
+
+</BundleInfo>
