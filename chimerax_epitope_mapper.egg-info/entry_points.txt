@@ -1,0 +1,2 @@
+[chimerax.bundle]
+epitope_mapper = chimerax.epitope_mapper:bundle_api
