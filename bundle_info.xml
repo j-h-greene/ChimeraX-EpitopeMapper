@@ -1,10 +1,9 @@
-<BundleInfo name="ChimeraX-EpitopeMapper" version="1.0" package="chimerax.epitope_mapper"
-            minSessionVersion="1" maxSessionVersion="1">
+<BundleInformation name="ChimeraX-EpitopeMapper" version="1.0">
 
   <Author>Sophia Greene</Author>
   <Email>sophia.greene@case.edu</Email>
   <URL>https://github.com/j-h-greene/ChimeraX-EpitopeMapper</URL>
-  <License>license.txt.mit</License>
+  <License>MIT</License>
 
   <Synopsis>A ChimeraX bundle for epitope mapping.</Synopsis>
   <Description>
@@ -17,10 +16,10 @@
   </Categories>
 
   <Classifiers>
-    <PythonClassifier>Development Status :: 3 - Alpha</PythonClassifier>
-    <PythonClassifier>License :: OSI Approved :: MIT License</PythonClassifier>
-    <ChimeraXClassifier>ChimeraX :: Bundle :: Analysis :: 1.0 :: chimerax.epitope_mapper :: chimerax.epitope_mapper :: </ChimeraXClassifier>
-    <ChimeraXClassifier>ChimeraX :: Command :: epitope map :: Analysis :: Map epitopes on protein structures</ChimeraXClassifier>
+    <Classifier>ChimeraX :: Bundle :: ChimeraX-EpitopeMapper :: 1.0</Classifier>
+    <Classifier>ChimeraX :: Command :: epitope map :: Analysis :: Map epitopes on protein structures</Classifier>
+    <Classifier>Development Status :: 3 - Alpha</Classifier>
+    <Classifier>License :: OSI Approved :: MIT License</Classifier>
   </Classifiers>
 
-</BundleInfo>
+</BundleInformation>
